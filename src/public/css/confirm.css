@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    background: #f1ece7;
+    color: #8b7969;
+    font-family: "Inika", "Hiragino Mincho ProN", "Yu Mincho", serif;
+}
+/* 全体ラップ */
+.confirm__content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+}
+
+/* テーブル */
+.confirm-table {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #e0d9d3;
+    background: #ffffff;
+}
+
+/* 行 */
+.confirm-table__row {
+    display: flex;
+    border-bottom: 1px solid #e0d9d3;
+}
+
+.confirm-table__row:last-child {
+    border-bottom: none;
+}
+
+/* 左（項目名） */
+.confirm-table__header {
+    width: 35%;
+    background: #bba99a;
+    color: #ffffff;
+    padding: 18px 20px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+/* 右（内容） */
+.confirm-table__text {
+    width: 65%;
+    padding: 18px 20px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+/* ボタンエリア */
+.confirm-form__button {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* 送信ボタン */
+.confirm-form__button-submit {
+    background: #82756a;
+    color: #ffffff;
+    border: none;
+    padding: 10px 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.confirm-form__button-submit:hover {
+    opacity: 0.9;
+}
+
+/* 修正リンク */
+.confirm-form__fix {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.confirm-form__fix-link {
+    color: #8b7969;
+    font-size: 16px;
+    text-decoration: underline;
+}

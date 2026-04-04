@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background: #f1ece7;
+    color: #8b7969;
+    font-family: "Inika", "Hiragino Mincho ProN", "Yu Mincho", serif;
+}
+
+.header {
+    background: #ffffff;
+    border-bottom: 1px solid #e0d9d3;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header__logo {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 40px 0;
+}
+
+.button {
+    background: #82756a;
+    color: #ffffff;
+    border: none;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    opacity: 0.9;
+}

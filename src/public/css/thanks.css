@@ -1,0 +1,37 @@
+.thanks__content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.thanks__message {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.thanks__button-home {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.thanks__content::before {
+    content: "Thank you";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 180px;
+    color: #8b7969;
+    opacity: 0.05;
+
+    white-space: nowrap;
+    z-index: 0;
+}
+
+.thanks__message,
+.thanks__button {
+    position: relative;
+    z-index: 1;
+}
