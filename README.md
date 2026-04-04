@@ -31,7 +31,7 @@ php artisan migrate
 - nginx 1.21.1
 
 ## ER図
-- ![ER図](./er.png)
+![ER図](./er.png)
 
 ## 機能一覧
 - お問い合せフォーム(入力・確認・送信)
@@ -44,5 +44,6 @@ php artisan migrate
 ## URL
 - お問合せ画面：http://localhost
 - ユーザー登録：http://localhost/register
+- ログイン画面：http://localhost/login
 - 管理画面：http://localhost/admin
-- phpmyadmin:http://localhost:8080
+- phpmyadmin：http://localhost:8080
