@@ -178,7 +178,7 @@
                                 <div class="modal__text">{{ $contact->detail }}</div>
                             </div>
                             <div class="modal__footer">
-                                <form method="post" action="/admin/delete/{{ $contact->id }}">
+                                <form method="post" action="/delete/{{ $contact->id }}">
                                     @csrf
                                     <button class="modal__delete-button">削除</button>
                                 </form>

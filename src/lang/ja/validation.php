@@ -4,6 +4,7 @@ return [
     'required' => ':attributeを入力してください',
     'email' => ':attributeはメール形式で入力してください',
     'confirmed' => ':attributeが一致しません',
+    'unique' => 'この:attributeは既に登録されています',
     'min' => [
         'string' => ':attributeは:min文字以上で入力してください',
     ],

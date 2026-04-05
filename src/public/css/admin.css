@@ -245,11 +245,16 @@
     position: fixed;
     inset: 0;
     display: none;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 60px;
+    background: rgba(0, 0, 0, 0.4);
     z-index: 1000;
+    box-sizing: border-box;
 }
 
 .modal:target {
-    display: block;
+    display: flex;
 }
 
 .modal__overlay {
@@ -261,9 +266,8 @@
 .modal__content {
     position: relative;
     width: 805px;
-    max-width: 900px;
-    margin: 80px auto;
-    padding: 80px 100px 80px 180px;
+    max-width: 90%;
+    padding: 60px 90px 60px 160px;
     background: #fff;
     border: 1px solid #8b7969;
     z-index: 1001;
@@ -288,7 +292,7 @@
 .modal__body {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 28px;
 }
 
 .modal__row {

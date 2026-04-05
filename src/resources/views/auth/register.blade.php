@@ -23,7 +23,7 @@
             <label class="auth-form__label" for="name">お名前</label>
             <input class="auth-form__input" type="text" name="name" id="name" placeholder="例： 山田 太郎" value="{{ old('name') }}">
             @error('name')
-                <p class="auth-form__error">{{ $message }}</p>
+            <p class="auth-form__error">{{ $message }}</p>
             @enderror
         </div>
 
@@ -31,7 +31,7 @@
             <label class="auth-form__label" for="email">メールアドレス</label>
             <input class="auth-form__input" type="email" name="email" id="email" placeholder="例： test@example.com" value="{{ old('email') }}">
             @error('email')
-                <p class="auth-form__error">{{ $message }}</p>
+            <p class="auth-form__error">{{ $message }}</p>
             @enderror
         </div>
 
@@ -39,7 +39,19 @@
             <label class="auth-form__label" for="password">パスワード</label>
             <input class="auth-form__input" type="password" name="password" id="password" placeholder="例： coachtech1106">
             @error('password')
-                <p class="auth-form__error">{{ $message }}</p>
+            <p class="auth-form__error">{{ $message }}</p>
+            @enderror
+        </div>
+        <div class="auth-form__group">
+            <label class="auth-form__label" for="password_confirmation">パスワード（確認）</label>
+            <input class="auth-form__input"
+                type="password"
+                name="password_confirmation"
+                id="password_confirmation"
+                placeholder="もう一度入力してください">
+
+            @error('password')
+            <p class="auth-form__error">{{ $message }}</p>
             @enderror
         </div>
 
